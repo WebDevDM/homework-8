@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+.top-img{
+    padding-bottom: 4em !important;
+}
+
+.nav-but{
+    background: none;
+    border: none;
+}
+
+#test-img{
+    height: 90px;
+    width: 100px;
+    margin-top: -30px;
+}
+
+#btn1{
+    margin: 2em 2em 2em 0em;
+}
+
+#nav-img{
+    height: 70px;
+    width: 120px;
+}
+
+#nav-logo{
+    font-family: 'Merienda One', cursive;
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 1em;
+}
+
+h1, h1, h3, h4, h5, p{
+    font-family: 'Merienda One', cursive;
+}
+
+.bg-custom{
+    background-color: rgba(202, 48, 48, 0.767);
+}
+
+.navbar{
+    border-radius: 0em 0em 2em 2em;
+}
+
+.p-nav{
+    font-family: 'Merienda One', cursive;
+}
+
+.nav-link{
+    font-family: 'Merienda One', cursive;
+    font-size: 24px !important;
+    padding: 0em 1em 0em 1em !important;
+}
+
+.title-image{
+    width: 600px;
+    height: 500px;
+}
+
+#playicon{
+    width: 25px;
+    height: 25px;
+}
+
+#appleicon{
+    width: 25px;
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.brand-img{
+    width: 150px;
+    height: 150px;
+}
+
+#features{
+    background-color:rgb(245, 207, 207);
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 70%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(245, 207, 207);
+}
+
+
+#our-birds{
+    position: relative;
+    z-index: 2;
+    background-color: #d44d4da2;
+    height: fit-content;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    justify-content: center;
+}
+
+.carousel-inner{
+    margin: auto !important;
+    text-align: center !important;
+    width: auto;
+    max-width: 80%;
+}
+
+.x{
+    margin: auto;
+    text-align: center;
+}
+
+#pricing{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#cta{
+    background-color: #d44d4da2;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#footer-para{
+    font-size: 48px !important;
+    padding: 2em 1em 1em 1em !important;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.download-button-2{
+    margin-top: -1%;
+    margin-bottom: 4%;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.footer-img{
+    height: 40px;
+    width: 40px;
+}
+
+.footer-link :hover{
+    transition: ease-in-out;
+    transition: 0.5s;
+    height: 50px;
+    width: 50px;
+}
+
+.pricelogo{
+    width: 80px;
+    height: 80px;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .title-image{
+        transform: rotate(0deg) !important;
+        position: static !important;
+        width: 80% !important;
+        height: 80% !important;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+
+    .brand-img{
+        margin-top: 1em !important;
+    }
+
+    #press{
+        padding-top: 120px;
+    }
+
+    #head-text1{
+        text-align: center !important;
+    }
+
+    .p-title{
+        color: white;
+        text-shadow: black 3px 3px 3px;
+    }
+
+    #test-img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+}
